@@ -1,0 +1,14 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "Migrations Class Library",
+  "authors": [ "pawel" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+  "dependencies": {
+    "FluentMigrator": "1.6.0"
+  },
+  "frameworks": {
+    "dnx451": { }
+  }
+}

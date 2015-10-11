@@ -1,0 +1,105 @@
+{
+  "locked": false,
+  "version": 2,
+  "targets": {
+    "DNX,Version=v4.5.1": {
+      "FluentMigrator/1.6.0": {
+        "type": "package",
+        "compile": {
+          "lib/40/FluentMigrator.dll": {}
+        },
+        "runtime": {
+          "lib/40/FluentMigrator.dll": {}
+        }
+      }
+    },
+    "DNX,Version=v4.5.1/win7-x86": {
+      "FluentMigrator/1.6.0": {
+        "type": "package",
+        "compile": {
+          "lib/40/FluentMigrator.dll": {}
+        },
+        "runtime": {
+          "lib/40/FluentMigrator.dll": {}
+        }
+      }
+    },
+    "DNX,Version=v4.5.1/win7-x64": {
+      "FluentMigrator/1.6.0": {
+        "type": "package",
+        "compile": {
+          "lib/40/FluentMigrator.dll": {}
+        },
+        "runtime": {
+          "lib/40/FluentMigrator.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FluentMigrator/1.6.0": {
+      "type": "package",
+      "sha512": "MaGpL4deoSQADnmPU1i+v7/BTkpaszT7A5j6VnMX370wUY+YReuxKE6UJpcL54N16zJTD/uWbyPiHHezIhJumA==",
+      "files": [
+        "FluentMigrator.1.6.0.nupkg",
+        "FluentMigrator.1.6.0.nupkg.sha512",
+        "FluentMigrator.nuspec",
+        "lib/35/FluentMigrator.dll",
+        "lib/35/FluentMigrator.pdb",
+        "lib/35/FluentMigrator.xml",
+        "lib/40/FluentMigrator.dll",
+        "lib/40/FluentMigrator.pdb",
+        "lib/40/FluentMigrator.xml",
+        "tools/amd64/Microsoft.VC90.CRT/Microsoft.VC90.CRT.manifest",
+        "tools/amd64/Microsoft.VC90.CRT/msvcr90.dll",
+        "tools/amd64/Microsoft.VC90.CRT/README_ENU.txt",
+        "tools/amd64/sqlceca40.dll",
+        "tools/amd64/sqlcecompact40.dll",
+        "tools/amd64/sqlceer40EN.dll",
+        "tools/amd64/sqlceme40.dll",
+        "tools/amd64/sqlceqp40.dll",
+        "tools/amd64/sqlcese40.dll",
+        "tools/FirebirdSql.Data.FirebirdClient.dll",
+        "tools/FluentMigrator.dll",
+        "tools/FluentMigrator.MSBuild.dll",
+        "tools/FluentMigrator.MSBuild.pdb",
+        "tools/FluentMigrator.NAnt.dll",
+        "tools/FluentMigrator.NAnt.pdb",
+        "tools/FluentMigrator.pdb",
+        "tools/FluentMigrator.Runner.dll",
+        "tools/FluentMigrator.Runner.pdb",
+        "tools/FluentMigrator.xml",
+        "tools/Migrate.exe",
+        "tools/Migrate.exe.config",
+        "tools/Migrate.pdb",
+        "tools/Mono.Security.dll",
+        "tools/MySql.Data.dll",
+        "tools/Npgsql.dll",
+        "tools/Npgsql.pdb",
+        "tools/Npgsql.XML",
+        "tools/Oracle.DataAccess.dll",
+        "tools/Oracle.ManagedDataAccess.dll",
+        "tools/policy.2.0.Npgsql.config",
+        "tools/policy.2.0.Npgsql.dll",
+        "tools/System.Data.SQLite.dll",
+        "tools/System.Data.SqlServerCe.dll",
+        "tools/System.Data.SqlServerCe.Entity.dll",
+        "tools/x86/Microsoft.VC90.CRT/Microsoft.VC90.CRT.manifest",
+        "tools/x86/Microsoft.VC90.CRT/msvcr90.dll",
+        "tools/x86/Microsoft.VC90.CRT/README_ENU.txt",
+        "tools/x86/sqlceca40.dll",
+        "tools/x86/sqlcecompact40.dll",
+        "tools/x86/sqlceer40EN.dll",
+        "tools/x86/sqlceme40.dll",
+        "tools/x86/sqlceqp40.dll",
+        "tools/x86/sqlcese40.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "": [
+      "FluentMigrator >= 1.6.0"
+    ],
+    "DNX,Version=v4.5.1": []
+  }
+}
