@@ -10,7 +10,8 @@ namespace FluentMigrator.Commands.Example
     {
         public override void Up()
         {
-            Create.Table("Users");
+            Create.Table("Users")
+                .WithColumn("Id").AsGuid();
         }
 
         public override void Down()

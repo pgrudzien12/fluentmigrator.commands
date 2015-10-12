@@ -14,7 +14,7 @@ namespace FluentMigrator.Commands
     {
         private readonly IApplicationEnvironment _appEnv;
 
-        public Program(IApplicationEnvironment appEnv)
+        public Program(IApplicationEnvironment appEnv, IRuntimeEnvironment env, IRuntimeOptions opt)
         {
             _appEnv = appEnv;
         }
@@ -24,14 +24,13 @@ namespace FluentMigrator.Commands
         public void Main(string[] args)
         {
             BuildConfiguration(args);
-            Console.WriteLine(new MigrationProcessorFactoryProvider().ListAvailableProcessorTypes());
 
-            Console.WriteLine(Configuration["command-text"]);
+            var csName = Configuration["cs"];
             var runnerContext = new RunnerContext(new ConsoleAnnouncer())
             {
                 Database = "SqlServer",
-                Connection = Configuration["Data:DefaultConnection:ConnectionString"],
-                Targets = new string[] { Configuration["command-text"] },
+                Connection = Configuration[$"Data:{csName}:ConnectionString"],
+                Targets = new string[] { Configuration["target"] },
                 PreviewOnly = false,
                 NestedNamespaces = true,
                 Task = "migrate",
@@ -40,7 +39,7 @@ namespace FluentMigrator.Commands
                 Steps = 1,
                 WorkingDirectory = ".",
                 TransactionPerSession = true
-            }; 
+            };
 
             new TaskExecutor(runnerContext).Execute();
 
@@ -56,6 +55,4 @@ namespace FluentMigrator.Commands
             Configuration = builder.Build();
         }
     }
-
-
 }

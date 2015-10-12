@@ -1,10 +1,10 @@
 ﻿{
-	"Data": {
-		"dev": {
-			"ConnectionString": "Server=.;Database=MigrationDev;Trusted_Connection=True;"
-		},
-		"test": {
-			"ConnectionString": "Server=.;Database=MigrationTest;Trusted_Connection=True;"
-		}
-	}
+  "Data": {
+    "dev": {
+      "ConnectionString": "Server=.;Database=MigrationDev;Trusted_Connection=True;"
+    },
+    "test": {
+      "ConnectionString": "Server=.;Database=MigrationTest;Trusted_Connection=True;"
+    }
+  }
 }

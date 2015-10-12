@@ -13,7 +13,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "FluentMigrator.Commands", "src\FluentMigrator.Commands\FluentMigrator.Commands.xproj", "{42531D8A-43A4-4864-A2A6-6075F98868AF}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Migrations", "src\FluentMigrator.Commands.Example\FluentMigrator.Commands.Example.xproj", "{D76144B6-8BEF-4A19-B7FE-3D253352C0EE}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "FluentMigrator.Commands.Example", "src\FluentMigrator.Commands.Example\FluentMigrator.Commands.Example.xproj", "{D76144B6-8BEF-4A19-B7FE-3D253352C0EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{E375FEEF-E16C-49A5-A972-62956935B178}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,6 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{42531D8A-43A4-4864-A2A6-6075F98868AF} = {9609D49E-DB26-4AD7-BAFE-54DF533C67D0}
-		{D76144B6-8BEF-4A19-B7FE-3D253352C0EE} = {9609D49E-DB26-4AD7-BAFE-54DF533C67D0}
+		{D76144B6-8BEF-4A19-B7FE-3D253352C0EE} = {E375FEEF-E16C-49A5-A972-62956935B178}
 	EndGlobalSection
 EndGlobal

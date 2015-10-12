@@ -1,2 +1,4 @@
 .vs
 *.xproj.user 
+src/FluentMigrator.Commands/bin 
+artifacts 

@@ -6,7 +6,11 @@
   "projectUrl": "",
   "licenseUrl": "",
   "dependencies": {
-    "FluentMigrator": "1.6.0"
+    "FluentMigrator": "1.6.0",
+    "FluentMigrator.Commands": ""
+  },
+  "commands": {
+    "db": "FluentMigrator.Commands"
   },
   "frameworks": {
     "dnx451": { }
