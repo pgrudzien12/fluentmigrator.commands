@@ -24,6 +24,7 @@ namespace FluentMigrator.Commands
         public void Main(string[] args)
         {
             BuildConfiguration(args);
+            PrintLogo();
 
             var csName = Configuration["cs"];
             var runnerContext = new RunnerContext(new ConsoleAnnouncer())
@@ -44,6 +45,24 @@ namespace FluentMigrator.Commands
             new TaskExecutor(runnerContext).Execute();
 
             Console.ReadLine();
+        }
+
+        private void PrintLogo()
+        {
+            Console.WriteLine(@"
+   ___ _                  _          _                 _             
+  / __\ |_   _  ___ _ __ | |_  /\/\ (_) __ _ _ __ __ _| |_ ___  _ __ 
+ / _\ | | | | |/ _ \ '_ \| __|/    \| |/ _` | '__/ _` | __/ _ \| '__|
+/ /   | | |_| |  __/ | | | |_/ /\/\ \ | (_| | | | (_| | || (_) | |   
+\/    |_|\__,_|\___|_| |_|\__\/    \/_|\__, |_|  \__,_|\__\___/|_|   
+                                       |___/                         
+   ___                                          _                    
+  / __\___  _ __ ___  _ __ ___   __ _ _ __   __| |___                
+ / /  / _ \| '_ ` _ \| '_ ` _ \ / _` | '_ \ / _` / __|               
+/ /__| (_) | | | | | | | | | | | (_| | | | | (_| \__ \               
+\____/\___/|_| |_| |_|_| |_| |_|\__,_|_| |_|\__,_|___/               
+                                                                      
+");
         }
 
         private void BuildConfiguration(string[] args)
