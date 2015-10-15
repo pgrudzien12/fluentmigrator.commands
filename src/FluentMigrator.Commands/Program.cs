@@ -12,13 +12,6 @@ namespace FluentMigrator.Commands
 {
     public class Program
     {
-        private readonly IApplicationEnvironment _appEnv;
-
-        public Program(IApplicationEnvironment appEnv, IRuntimeEnvironment env, IRuntimeOptions opt)
-        {
-            _appEnv = appEnv;
-        }
-
         public IConfiguration Configuration { get; set; }
 
         public void Main(string[] args)

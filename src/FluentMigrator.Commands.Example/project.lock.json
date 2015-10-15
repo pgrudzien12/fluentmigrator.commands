@@ -18,11 +18,11 @@
         "dependencies": {
           "FluentMigrator": "1.6.0",
           "FluentMigrator.Runner": "1.6.0",
-          "Microsoft.Framework.Configuration.Abstractions": "1.0.0-rc1-15677",
-          "Microsoft.Framework.Configuration.CommandLine": "1.0.0-rc1-15677",
-          "Microsoft.Framework.Configuration.Json": "1.0.0-rc1-15677",
-          "Microsoft.Framework.Configuration.UserSecrets": "1.0.0-beta7",
-          "Microsoft.Framework.Runtime.Abstractions": "1.0.0-beta6"
+          "Microsoft.Framework.Configuration.Abstractions": "1.0.0",
+          "Microsoft.Framework.Configuration.CommandLine": "1.0.0",
+          "Microsoft.Framework.Configuration.Json": "1.0.0",
+          "Microsoft.Framework.Configuration.UserSecrets": "1.0.0",
+          "Microsoft.Framework.Runtime.Abstractions": "1.0.0"
         }
       },
       "FluentMigrator.Runner/1.6.0": {
@@ -126,10 +126,10 @@
           "lib/dnx451/Microsoft.Framework.Configuration.Json.dll": {}
         }
       },
-      "Microsoft.Framework.Configuration.UserSecrets/1.0.0-beta7": {
+      "Microsoft.Framework.Configuration.UserSecrets/1.0.0-beta8": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Framework.Configuration.Json": "1.0.0-beta7"
+          "Microsoft.Framework.Configuration.Json": "1.0.0-beta8"
         },
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -185,11 +185,11 @@
         "dependencies": {
           "FluentMigrator": "1.6.0",
           "FluentMigrator.Runner": "1.6.0",
-          "Microsoft.Framework.Configuration.Abstractions": "1.0.0-rc1-15677",
-          "Microsoft.Framework.Configuration.CommandLine": "1.0.0-rc1-15677",
-          "Microsoft.Framework.Configuration.Json": "1.0.0-rc1-15677",
-          "Microsoft.Framework.Configuration.UserSecrets": "1.0.0-beta7",
-          "Microsoft.Framework.Runtime.Abstractions": "1.0.0-beta6"
+          "Microsoft.Framework.Configuration.Abstractions": "1.0.0",
+          "Microsoft.Framework.Configuration.CommandLine": "1.0.0",
+          "Microsoft.Framework.Configuration.Json": "1.0.0",
+          "Microsoft.Framework.Configuration.UserSecrets": "1.0.0",
+          "Microsoft.Framework.Runtime.Abstractions": "1.0.0"
         }
       },
       "FluentMigrator.Runner/1.6.0": {
@@ -293,10 +293,10 @@
           "lib/dnx451/Microsoft.Framework.Configuration.Json.dll": {}
         }
       },
-      "Microsoft.Framework.Configuration.UserSecrets/1.0.0-beta7": {
+      "Microsoft.Framework.Configuration.UserSecrets/1.0.0-beta8": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Framework.Configuration.Json": "1.0.0-beta7"
+          "Microsoft.Framework.Configuration.Json": "1.0.0-beta8"
         },
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -352,11 +352,11 @@
         "dependencies": {
           "FluentMigrator": "1.6.0",
           "FluentMigrator.Runner": "1.6.0",
-          "Microsoft.Framework.Configuration.Abstractions": "1.0.0-rc1-15677",
-          "Microsoft.Framework.Configuration.CommandLine": "1.0.0-rc1-15677",
-          "Microsoft.Framework.Configuration.Json": "1.0.0-rc1-15677",
-          "Microsoft.Framework.Configuration.UserSecrets": "1.0.0-beta7",
-          "Microsoft.Framework.Runtime.Abstractions": "1.0.0-beta6"
+          "Microsoft.Framework.Configuration.Abstractions": "1.0.0",
+          "Microsoft.Framework.Configuration.CommandLine": "1.0.0",
+          "Microsoft.Framework.Configuration.Json": "1.0.0",
+          "Microsoft.Framework.Configuration.UserSecrets": "1.0.0",
+          "Microsoft.Framework.Runtime.Abstractions": "1.0.0"
         }
       },
       "FluentMigrator.Runner/1.6.0": {
@@ -460,10 +460,10 @@
           "lib/dnx451/Microsoft.Framework.Configuration.Json.dll": {}
         }
       },
-      "Microsoft.Framework.Configuration.UserSecrets/1.0.0-beta7": {
+      "Microsoft.Framework.Configuration.UserSecrets/1.0.0-beta8": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Framework.Configuration.Json": "1.0.0-beta7"
+          "Microsoft.Framework.Configuration.Json": "1.0.0-beta8"
         },
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -668,19 +668,18 @@
         "Microsoft.Framework.Configuration.Json.nuspec"
       ]
     },
-    "Microsoft.Framework.Configuration.UserSecrets/1.0.0-beta7": {
+    "Microsoft.Framework.Configuration.UserSecrets/1.0.0-beta8": {
       "type": "package",
       "serviceable": true,
-      "sha512": "I4/89xQyH7LKqjteUKpcbPvoCzOhlwTGZV8BnTh1EDPhhWa93+HxjgUyrgQAG1i8AE7E8rDX7IBju2au5MXZJQ==",
+      "sha512": "P0ZPcnvy2t/3yYxd0eFbZdqGbwqNR2UBIoOLkFexr2XYpbPS8jXt/TQWVn+eA8ml5/L4B17G6davwZU25PYn1A==",
       "files": [
         "lib/dnx451/Microsoft.Framework.Configuration.UserSecrets.dll",
         "lib/dnx451/Microsoft.Framework.Configuration.UserSecrets.xml",
         "lib/dnxcore50/Microsoft.Framework.Configuration.UserSecrets.dll",
         "lib/dnxcore50/Microsoft.Framework.Configuration.UserSecrets.xml",
-        "Microsoft.Framework.Configuration.UserSecrets.1.0.0-beta7.nupkg",
-        "Microsoft.Framework.Configuration.UserSecrets.1.0.0-beta7.nupkg.sha512",
-        "Microsoft.Framework.Configuration.UserSecrets.nuspec",
-        "repo.json"
+        "Microsoft.Framework.Configuration.UserSecrets.1.0.0-beta8.nupkg",
+        "Microsoft.Framework.Configuration.UserSecrets.1.0.0-beta8.nupkg.sha512",
+        "Microsoft.Framework.Configuration.UserSecrets.nuspec"
       ]
     },
     "Microsoft.Framework.Runtime.Abstractions/1.0.0-beta6": {
