@@ -7,11 +7,11 @@
   "licenseUrl": "",
 
   "dependencies": {
-    "Microsoft.Framework.Runtime.Abstractions": "1.0.0-beta6",
-    "Microsoft.Framework.Configuration.Abstractions": "1.0.0-rc1-15677",
-    "Microsoft.Framework.Configuration.Json": "1.0.0-rc1-15677",
-    "Microsoft.Framework.Configuration.UserSecrets": "1.0.0-beta7",
-    "Microsoft.Framework.Configuration.CommandLine": "1.0.0-rc1-15677",
+    "Microsoft.Framework.Runtime.Abstractions": "1.0.0-beta8",
+    "Microsoft.Framework.Configuration.Abstractions": "1.0.0-beta8",
+    "Microsoft.Framework.Configuration.Json": "1.0.0-beta8",
+    "Microsoft.Framework.Configuration.UserSecrets": "1.0.0-beta8",
+    "Microsoft.Framework.Configuration.CommandLine": "1.0.0-beta8",
     "FluentMigrator": "1.6.0",
     "FluentMigrator.Runner":"1.6.0"
   },

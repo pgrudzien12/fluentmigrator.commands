@@ -47,6 +47,15 @@ namespace FluentMigrator.Commands
             Console.ReadLine();
         }
 
+        private void BuildConfiguration(string[] args)
+        {
+            var builder = new ConfigurationBuilder()
+                .AddJsonFile("config.json")
+                .AddCommandLine(args);
+
+            Configuration = builder.Build();
+        }
+
         private void PrintLogo()
         {
             Console.WriteLine(@"
@@ -63,15 +72,6 @@ namespace FluentMigrator.Commands
 \____/\___/|_| |_| |_|_| |_| |_|\__,_|_| |_|\__,_|___/               
                                                                       
 ");
-        }
-
-        private void BuildConfiguration(string[] args)
-        {
-            var builder = new ConfigurationBuilder()
-                .AddJsonFile("config.json")
-                .AddCommandLine(args);
-
-            Configuration = builder.Build();
         }
     }
 }
